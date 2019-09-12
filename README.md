@@ -1,4 +1,7 @@
-# Base template for React
+# React alert click
+
+Render button, click on which will show alert with text: "Button was clicked!"
+`alert('Button was clicked!')`
 
 ## Task
 
