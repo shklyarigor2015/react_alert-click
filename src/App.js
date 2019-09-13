@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-const onClickReaction = massage => alert('Button was clicked!');
+const handleClick = showMessage => alert('Button was clicked!');
 
 function App() {
   return (
     <div className="main">
       <button
-        onClick={() => onClickReaction()}
+        onClick={() => handleClick()}
         type="button"
         className="btn"
       >
